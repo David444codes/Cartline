@@ -464,6 +464,7 @@ body {
 
 .ourmarket_illustrations {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 30px;
@@ -1048,7 +1049,7 @@ footer {
 
     .ourmarket_illustrations {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         justify-content: space-evenly;
         margin-top: 30px;
@@ -1643,10 +1644,10 @@ footer {
         color: #E3E3E3;
     }
 
-    .ourmarket_illustrations {
+    /* .ourmarket_illustrations {
         display: flex;
         margin-top: 30px;
-    }
+    } */
 
     .ourmarket_illustrations p {
         text-align: center;
@@ -1656,6 +1657,11 @@ footer {
         line-height: 41px;
         /* identical to box height */
         color: #FFFFFF;
+    }
+
+    .ourmarket_illustrations img {
+        width: 50px;
+        margin-left: 20px;
     }
 
 
